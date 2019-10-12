@@ -54,7 +54,7 @@ Swagger for Documentation.
 
 now on brower you can hit below urls 
 
-http://localhost:8080/criteria
-http://localhost:8080/criteria?announceDate=1999
-http://localhost:8080/criteria?priceEur=200
-http://localhost:8080/criteria?announceDate=1999&priceEur=200
+1. http://localhost:8080/criteria
+2. http://localhost:8080/criteria?announceDate=1999
+3. http://localhost:8080/criteria?priceEur=200
+4. http://localhost:8080/criteria?announceDate=1999&priceEur=200
