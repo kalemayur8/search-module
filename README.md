@@ -50,7 +50,7 @@ Swagger for Documentation.
 1. Download the code or clone it
 2. cmd:\search-module> mvn clean install -DskipTests=true
 3. cmd:\search-module> cd target
-4. cmd:\search-module> java -jar search-module-0.0.1-SNAPSHOT.jar
+4. cmd:\search-module\target> java -jar search-module-0.0.1-SNAPSHOT.jar
 
 now on brower you can hit below urls 
 
