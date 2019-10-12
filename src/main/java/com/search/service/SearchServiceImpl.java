@@ -32,7 +32,7 @@ public class SearchServiceImpl implements SearchService {
 	 * 
 	 */
 	@PostConstruct
-    private void init() {
+    public void init() {
 		LOGGER.info("Loading inventory data");
 		mobileInventoryData = mobileInventoryEService.getMobileInventoryDataJSON();
 		mobileInventoryparsedData = Configuration.defaultConfiguration().jsonProvider().parse(mobileInventoryData);
